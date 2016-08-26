@@ -1,6 +1,8 @@
-# {{ name }}
+# imweb-conf-2016
 
-> {{ description }}
+> imweb conf 2016 宣传页
+
+基于：vue + webpack
 
 ## Build Setup
 
