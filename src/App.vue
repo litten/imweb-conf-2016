@@ -535,21 +535,7 @@ header.signage span.arrow {
     background: #fff;
 }
 .content {
-    -webkit-transform: rotateY(10deg);
-    -moz-transform: rotateY(10deg);
-    -o-transform: rotateY(10deg);
-    -ms-transform: rotateY(10deg);
-    transform: rotateY(10deg);
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    transform-origin: 0 0;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+    
 }
 .content-inner {
     position: relative;
@@ -567,10 +553,6 @@ header.signage span.arrow {
 }
 .content-inner p {
     font-size: 18px;
-    max-height: 0px;
-    overflow: hidden;
-    color: transparent;
-    color: rgba(0,0,0,0);
     text-align: left;
 }
 .content-inner:before {

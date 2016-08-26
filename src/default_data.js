@@ -20,7 +20,7 @@ export default {
     // 下午-node
     pmNode: [{
         author: '陈映平',
-        info: '云汉金融科技前端CEO',
+        info: '云汉金融科技前端技术负责人',
         title: '《express内核解析与服务端开发实践》',
         time: '14:00',
         vip: true,
