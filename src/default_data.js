@@ -1,7 +1,7 @@
 export default {
     // 上午
     am: [{
-        author: '罗成',
+        author: '罗成（嘉宾）',
         info: '腾讯高级工程师',
         vip: true,
         title: '《HTTPS最佳实践》',
@@ -19,7 +19,7 @@ export default {
     }],
     // 下午-node
     pmNode: [{
-        author: '陈映平',
+        author: '陈映平（嘉宾）',
         info: '云汉金融科技前端技术负责人',
         title: '《express内核解析与服务端开发实践》',
         time: '14:00',
@@ -61,7 +61,7 @@ export default {
     }],
     // 下午-混合
     pmComplex: [{
-            author: '蒋豪群',
+            author: '蒋豪群（嘉宾）',
             info: '阿里高级工程师',
             title: '《JavaScript 的设计失误》',
             vip: true,

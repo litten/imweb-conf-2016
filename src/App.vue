@@ -109,6 +109,27 @@
         </ul>
     </section>
 
+    <section class="set-partner">
+        <h2 class="partner-title">合作伙伴</h2>
+        <div class="partner">
+            <div class="partner-item">
+                <div class="partner-item-logo"><img src="./img/前端圈1.jpg" alt="前端圈" /></div>
+                <img class="partner-item-ercode" src="./img/前端圈2.jpg" alt="前端圈" />
+            </div>
+            <div class="partner-item">
+                <div class="partner-item-logo"><img src="./img/伯乐1.jpg" alt="伯乐在线" /></div>
+                <img class="partner-item-ercode" src="./img/part2.jpg" alt="伯乐在线" />
+            </div>
+            <div class="partner-item">
+                <div class="partner-item-logo"><img src="./img/stuq1.jpg" alt="StuQ" /></div>
+                <img class="partner-item-ercode" src="./img/stuq2.jpg" alt="StuQ" />
+            </div>
+            <div class="partner-item">
+                <div class="partner-item-wording">前端早读课</div>
+                <img class="partner-item-ercode" src="./img/part4.jpg" alt="前端早读课" />
+            </div>
+        </div>
+    </section>
     <div id="footer">
         <div id="footer-main">
             <div class="footer-link">
@@ -730,6 +751,38 @@ header.signage span.arrow {
     max-height: 300px;
 }
 }
+
+.set-partner {
+    padding-bottom: 50px;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.partner-title {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 2em;
+}
+.partner-item {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+
+.partner-item-logo {
+    
+}
+
+.partner-item-ercode {
+    width: 97px;  
+    padding-top: 40px; 
+}
+
+.partner-item-wording {
+    color: #fff;
+    font-size: 2em;
+}
+
 /*footer*/
     #footer {
     background-color: #4d4e4e;
