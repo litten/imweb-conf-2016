@@ -180,6 +180,11 @@ import Vue from 'vue';
 import Anm from './anm';
 import DefaultData from './default_data';
 
+if (/Android|iPhone|iPod|BlackBerry|IEMobile/i.test(navigator.userAgent)) {
+
+    window.location.href = 'http://j.maka.im/k/56YTHUT1';
+}
+
 Vue.filter('imgfilter', function (str) {
     return './src/img/' + str;
 })
