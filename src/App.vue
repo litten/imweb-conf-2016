@@ -236,7 +236,8 @@ body {
     background: #1A3742;
     background-image: gradient(linear, 0% 0%, 0% 100%, from(#1A3742), to(#9EA183));
     background-image: linear-gradient(top, #1A3742, #9EA183);
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
+    overflow-x: hidden; 
 }
 h2.timepoint {
     text-align: center;
@@ -313,14 +314,14 @@ header.signage h1 {
     margin-top: 27px;
     margin-bottom: 0;
     font-size: 1.35em;
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
 }
 header.signage h2 {
     margin: 5px 0;
     padding: 0;
     font-size: 2em;
     letter-spacing: 2px;
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
 }
 header.signage p {
     margin: 0;
@@ -451,7 +452,7 @@ header.signage span.arrow {
     position: relative;
     list-style-type: none;
     padding: 30px 0 50px 0;
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
 }
 .timeline:before {
     content: '';
